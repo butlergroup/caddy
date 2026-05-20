@@ -24,7 +24,7 @@ jobs:
 
     # See https://github.com/peter-evans/repository-dispatch
     - name: Harden the runner (Audit all outbound calls)
-      uses: step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b # v2.15.0
+      uses: step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5 # v2.19.3
       with:
         egress-policy: audit
 
